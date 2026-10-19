@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="theme-color" content="#080c0a">
+ <title>Infinity Ring — Your world is the interface</title>
+ <meta name="description" content="A future wearable concept. Explore an intelligent ring through its form, functional architecture and everyday interaction.">
+ <meta property="og:title" content="Infinity Ring — Your world is the interface">
+ <meta property="og:description" content="Touch to begin. Turn to focus. A future wearable concept, guided by light.">
+ <meta property="og:type" content="website">
+ <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+ <link rel="preload" href="assets/fonts/inter-tight.woff2" as="font" type="font/woff2" crossorigin>
+ <link rel="stylesheet" href="styles.css">
+ <script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+ <script type="module" src="src/app.mjs"></script>
+</head>
+<body>
+ <a href="#main" class="skip-link">Skip to experience</a>
+ <header class="site-header">
+  <a href="#vision" class="wordmark" data-jump="0" aria-label="Infinity Ring home"><svg viewBox="0 0 32 20" aria-hidden="true"><path d="M16 10c-7-12-20-4-12 3 5 5 8 0 12-3s8-8 12-3c8 7-5 15-12 3Z"/></svg>INFINITY <span>RING</span></a>
+  <nav aria-label="Primary"><a href="#architecture" data-jump="2">Inside</a><a href="#wear" data-jump="5">Experience</a><button type="button" data-open="concept">The concept <span aria-hidden="true">↗</span></button></nav>
+  <button id="motion-mode" type="button" aria-pressed="false" title="Switch to a static reading experience">Motion <span>on</span></button>
+ </header>
+ <main id="main" tabindex="-1">
+  <div id="stage" aria-hidden="true">
+   <div class="studio-halo"></div>
+   <div class="scenes">
+    <img data-photo="wear" src="assets/iris-wear.png" alt="" fetchpriority="low">
+    <img data-photo="workbench" src="assets/iris-workbench.png" alt="" loading="lazy">
+    <img data-photo="reading" src="assets/iris-reading.png" alt="" loading="lazy">
+    <img data-photo="night" src="assets/iris-night.png" alt="" loading="lazy">
+   </div>
+   <div class="scene-shade"></div><canvas id="ring-canvas"></canvas><div class="floor-line"></div>
+  </div>
+  <div id="chapters">
+   <section class="initial-story"><p class="eyebrow">A FUTURE WEARABLE CONCEPT</p><h1>Your world.<br>At your fingertips.</h1><p>A concept for a quieter way to meet AI. Touch to begin. Turn to focus. Ask about the world in front of you.</p><img src="assets/r3-hero-render.png" alt="Infinity Ring R3 Iris concept in graphite metal, with a recessed iris and two green status arcs."><p>Infinity Ring is a future product concept. Physical hardware, projection optics and wearability have not yet been validated.</p><a href="assets/concept-overview.txt" download>Read the concept overview</a></section>
+  </div>
+  <div id="scroll-track" aria-hidden="true"></div>
+ </main>
+ <footer class="experience-footer">
+  <button id="chapters-trigger" type="button" aria-expanded="false" aria-controls="chapter-menu"><span id="chapter-number">01</span><span class="dim"> / 12</span><span class="chapter-arrow" aria-hidden="true">⌃</span></button>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+  <span class="scroll-prompt"><svg viewBox="0 0 18 26" aria-hidden="true"><rect x="3" y="1" width="12" height="22" rx="6"/><path d="M9 6v5"/></svg><span>Scroll to explore</span></span>
+ </footer>
+ <nav id="chapter-menu" hidden aria-label="All chapters"></nav>
+ <dialog id="detail-dialog" aria-labelledby="dialog-title"><button class="close-dialog" type="button" aria-label="Close details">×</button><p id="dialog-tag" class="eyebrow"></p><h2 id="dialog-title"></h2><div id="dialog-body"></div><p id="dialog-status"></p></dialog>
+ <div id="announcer" class="sr-only" aria-live="polite"></div>
+</body>
+</html>

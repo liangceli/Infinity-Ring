@@ -1,0 +1,19 @@
+{
+  "component_groups": [
+    "housing",
+    "bezel",
+    "iris",
+    "optics",
+    "electronics",
+    "power"
+  ],
+  "mesh_instances": 502,
+  "part_objects": 551,
+  "same_instances_reassembled": true,
+  "max_endpoint_error": 0,
+  "geometry_units": "normalized visualization units; not manufacturing dimensions",
+  "devices": [
+    "NVIDIA GeForce RTX 3050 Laptop GPU"
+  ],
+  "blender_version": "4.5.14 LTS"
+}

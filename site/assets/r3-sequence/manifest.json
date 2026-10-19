@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "frames": 121,
+  "width": 1120,
+  "height": 1120,
+  "format": "webp",
+  "alpha": true,
+  "renderer": "Blender 4.5.14 Cycles",
+  "model": "infinity-r3-master.blend",
+  "keyframes": [
+    {
+      "frame": 0,
+      "explode": 0.0
+    },
+    {
+      "frame": 20,
+      "explode": 0.0
+    },
+    {
+      "frame": 65,
+      "explode": 1.0
+    },
+    {
+      "frame": 82,
+      "explode": 1.0
+    },
+    {
+      "frame": 120,
+      "explode": 0.0
+    }
+  ],
+  "same_geometry": true
+}

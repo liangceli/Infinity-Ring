@@ -1,0 +1,33 @@
+{
+  "copied_at": "2026-10-19T06:05:04.476914+00:00",
+  "source": "C:\\Users\\liangceli\\Documents\\Codex\\2026-10-09\\new-chat\\outputs\\infinity-ring",
+  "destination": "C:\\Users\\liangceli\\Infinity-Ring",
+  "copied_files": 255,
+  "bytes": 74162769,
+  "copied_hashes_verified": true,
+  "text_files_rebased": [
+    ".creative-flow\\state.json",
+    "hardware-handoff\\研发任务书.md",
+    "render-v2\\prompts.json"
+  ],
+  "preserved": [
+    "existing .git directory",
+    "original README heading",
+    "original source directory"
+  ],
+  "excluded": [
+    ".env*",
+    "render logs",
+    "caches",
+    "release history",
+    "Blender backup files",
+    "portable Blender binaries"
+  ],
+  "post_copy_changes": [
+    "root run scripts and README",
+    "portable Blender downloader root",
+    "current site README",
+    "project paths and workflow workspace record"
+  ],
+  "git_commit_or_push": false
+}

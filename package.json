@@ -1,0 +1,12 @@
+{
+  "name": "infinity-ring-project",
+  "private": true,
+  "version": "0.2.0",
+  "scripts": {
+    "dev": "node site/server.mjs",
+    "test": "node --test site/tests/*.test.mjs",
+    "check": "node site/scripts/check.mjs",
+    "build": "node site/scripts/build.mjs",
+    "prepare:vercel": "node site/scripts/prepare-vercel.mjs"
+  }
+}

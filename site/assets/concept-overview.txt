@@ -1,0 +1,24 @@
+INFINITY RING — CONCEPT OVERVIEW
+
+Your world is the interface.
+
+Infinity Ring explores a wearable interaction combining deliberate voice activation, visual target selection and near-field illumination. The selected appearance is R3 / Iris: graphite titanium, a recessed mechanical iris, a tactile circular bezel and restrained green status arcs.
+
+THE PROPOSED EXPERIENCE
+Touch both sides to activate voice interaction. Ask to enter visual mode. Point toward an object, adjust the target boundary, capture an image and ask about the selected area. Use a deliberate stop to end the session. Illumination is a separate mode.
+
+THREE DISTINCT LIGHT FUNCTIONS
+1. A status signal on the ring.
+2. A projected selection boundary on a target surface.
+3. A diffuse near-field illumination area.
+An ordinary status LED does not establish adjustable target projection capability.
+
+SYSTEM ARCHITECTURE
+Ring: sensing, touch and rotary input, audio, imaging, light and feedback.
+Gateway: connectivity, permissions, session state and transfer.
+Cloud intelligence: speech, image understanding, context and responses.
+
+DEVELOPMENT STATUS
+This is a future product concept. Exterior images and the exploded view are concept visualizations, not photographs of validated hardware or proof of a manufacturable assembly. Final dimensions, weight, endurance, water resistance, optical safety and strong-daylight projection have not been established. Hardware candidates, custom integration and future optical research must be distinguished.
+
+No purchasing, availability or launch-date commitment is made.
